@@ -4,6 +4,7 @@
 	"description": "Start template with Gulp and Webpack",
 	"author": "FLS",
 	"private": true,
+	"homepage": "https://sergei00026.github.io/visina/",
 	"license": "",
 	"type": "module",
 	"scripts": {
