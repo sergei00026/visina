@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Наши контакты"
+})
+
+<body>
+	<div class="wrapper header-white">
+		@@include('html/_header.htm',{})
+		<main class="page">
+			<section class="callback callback__ourContacts">
+				<div class="callback__container">
+					<div class="callback__application">
+						<h2 class="callback__title title">
+							<span>Оставить заявку</span>
+							и получить бесплатную консультацию
+						</h2>
+						<form class="callback__form" action="">
+							<input class="callback__inpText" type="text" placeholder="Ваше имя ">
+							<input class="callback__inpTel" type="tel" name="tel" placeholder="Номер телефона для связи">
+							<p class="callback__politic">Нажимая на кнопку, Вы даете согласие на обработку своих персональных
+								данных(в целях соблюдения норм Федерального закона "О персональных данных" от 27.07.2006 N
+								152-ФЗ)</p>
+							<button class="callback__btn" type="submit">ОТПРАВИТЬ ЗАЯВКУ</button>
+						</form>
+					</div>
+					<div class="callback__contacts">
+						<h2 class="callback__title-contacts title">Наши Контакты</h2>
+						<div class="callback__header">ООО «CК ВИСИНА»</div>
+						<div class="callback__subHeader">Строительная компания</div>
+						<div class="callback__item">
+							<div class="callback__itemImg"><img src="@img/location.svg" alt="locaion"></div>
+							<div class="callback__desc">Новая ул., 100, Сколково, Московская обл.,<br> 143025</div>
+						</div>
+						<div class="callback__item">
+							<div class="callback__itemImg"><img src="@img/clock.svg" alt="clock"></div>
+							<div class="callback__desc">
+								<p>пн-пт 10:00 до 21:00</p>
+								<p>сб-вс 11:00 до 20:00</p>
+							</div>
+						</div>
+						<div class="callback__item">
+							<div class="callback__itemImg"><img src="@img/phone.svg" alt="phone"></div>
+							<div class="callback__desc"><a href="tel:79000000000">+7(900)-000-00-00</a></div>
+						</div>
+						<div class="callback__socials">
+							<a class="callback__link" href="#" target="_blank">
+								<img src="@img/insta.svg" alt="insta">
+							</a>
+							<a class="callback__link" href="#" target="_blank">
+								<img src="@img/youtube.svg" alt="youtube">
+							</a>
+							<a class="callback__link" href="#" target="_blank">
+								<img src="@img/whatsap.svg" alt="whatsap">
+							</a>
+							<a class="callback__link" href="#" target="_blank">
+								<img src="@img/telegram.svg" alt="telegram">
+							</a>
+							<a class="callback__link" href="#" target="_blank">
+								<img src="@img/vk.svg" alt="vk">
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="requisites">
+				<div class="requisites__container">
+					<div class="requisites__item">
+						<h4 class="requisites__header">Организация</h4>
+						<div class="requisites__data">ООО “Юлия”</div>
+					</div>
+					<div class="requisites__item">
+						<h4 class="requisites__header">ИНН</h4>
+						<div class="requisites__data">7726451013</div>
+					</div>
+					<div class="requisites__item">
+						<h4 class="requisites__header">КПП</h4>
+						<div class="requisites__data">772001001</div>
+					</div>
+					<div class="requisites__item">
+						<h4 class="requisites__header">ОГРН/ОГРНИП</h4>
+						<div class="requisites__data">1197746238909</div>
+					</div>
+					<div class="requisites__item">
+						<h4 class="requisites__header">Счет</h4>
+						<div class="requisites__data">12345678900</div>
+					</div>
+					<div class="requisites__item">
+						<h4 class="requisites__header">БИК</h4>
+						<div class="requisites__data">12345678900</div>
+					</div>
+					<div class="requisites__item">
+						<h4 class="requisites__header">Наименование банка </h4>
+						<div class="requisites__data">ПАО “СБЕРБАНК”</div>
+					</div>
+					<div class="requisites__item">
+						<h4 class="requisites__header">К/С</h4>
+						<div class="requisites__data">12345678900</div>
+					</div>
+				</div>
+			</section>
+	</div>
+	<div class="map">
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3179.913349885311!2d37.39181846601769!3d55.69701451384278!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54e6b1aa9f99b%3A0x2a471ced8347977d!2z0J3QvtCy0LDRjyDRg9C7LiwgMTAwLCDQnNC-0YHQutCy0LAsIDEyMTM1Mw!5e0!3m2!1sru!2sru!4v1695550650364!5m2!1sru!2sru"
+			width="100%" style="border:0;" allowfullscreen="" loading="lazy"
+			referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+	</main>
+	@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_popup.htm',{})
+	@@include('html/_js.htm',{})
+</body>
+
+</html>
